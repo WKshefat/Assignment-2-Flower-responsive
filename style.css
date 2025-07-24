@@ -226,7 +226,79 @@ nav > ul > li >a{
 /* plant lover sec end  */
 
 
+/* latest deal styles start  */
+.latest-title{
+    margin:168px 0px 120px 0px;
+}
 
+
+.latest-deal-sec-container{
+    max-width:1140px;
+    margin:auto;
+    display:grid;
+    gap:26px;
+    grid-template-columns:366px 1fr;
+    max-height:423px;
+}
+
+.small-image-div-parent{
+    display:grid;
+    gap:22px;
+    text-align:center;
+
+}
+
+.latest-deal-sec-container img{
+    border-radius:30px;
+}
+
+
+.small-image-first, .small-image-2, .big-image-div-parent{
+    position: relative;
+
+
+}
+
+.absolute{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:98%;
+     display:grid;
+    place-content: center;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius:30px;
+}
+
+.absolute > h3{
+    font-size:1.25rem;
+    font-weight:700;
+}
+
+.absolute > a{
+    color:white;
+     font-weight:600;
+     font-size:1rem;
+     margin-top:19px;
+
+}
+
+ .big-image-div-parent{
+    text-align:center;
+ }
+ 
+ .big-image-div-parent h2{
+    font-size:2.5rem;
+    font-weight:700;
+ }
+
+ .big-image-div-parent a{
+    font-size:28px;
+    font-weight:600;
+ }
+ 
+/* latest deal styles end  */
 
 
 
@@ -310,9 +382,9 @@ nav > ul > li >a{
         font-size:1.5rem;
     }
 
-    .para-description{
+    /* .para-description{
         font-size:0.875rem;
-    }
+    } */
 
     .section-para{
         width:92.6%;
@@ -372,6 +444,37 @@ nav > ul > li >a{
     .plant-lover-box > ul{
         padding-left:25px;
     }
+
+
+    /* latest sec responsive  */
+
+    .latest-title{
+        margin:143px 0px 51px 0px;
+    }
+
+    .latest-deal-sec-container{
+        width:90%;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .image-div-parent{
+        gap:20px;
+    }
+
+    .small-image-first img, .small-image-2 img, .big-image-div-parent img{
+        width:100%;
+    }
+    
+    .big-image-div-parent h2{
+        font-size:1.25rem;
+    }
+
+        .big-image-div-parent a{
+        font-size:1rem;
+    }
+
+
 
 }
 
@@ -446,9 +549,9 @@ nav > ul > li >a{
         font-size:1.5rem;
     }
 
-    .para-description{
+    /* .para-description{
         font-size:0.875rem;
-    }
+    } */
 
     .section-para{
         width:92.6%;
@@ -511,6 +614,36 @@ nav > ul > li >a{
         padding-left:25px;
     }
 
+
+
+    
+    /* latest sec responsive  */
+
+    .latest-title{
+        margin:143px 0px 51px 0px;
+    }
+
+    .latest-deal-sec-container{
+        width:90%;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .image-div-parent{
+        gap:20px;
+    }
+
+    .small-image-first img, .small-image-2 img, .big-image-div-parent img{
+        width:100%;
+    }
+    
+    .big-image-div-parent h2{
+        font-size:1.25rem;
+    }
+
+        .big-image-div-parent a{
+        font-size:1rem;
+    }
 
     
 } 
